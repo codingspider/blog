@@ -40,7 +40,7 @@
                         
                         <!-- BEGIN .header-pob -->
                         <div class="header-pob">
-                            <a href="#" target="_blank"><img src="{{ asset('assets/images/pob-1.jpg') }}" alt="" /></a>
+                           {{--  <a href="#" target="_blank"><img src="{{ asset('assets/images/pob-1.jpg') }}" alt="" /></a> --}}
                         <!-- END .header-pob -->
                         </div>
 

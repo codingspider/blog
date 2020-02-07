@@ -13,7 +13,7 @@ return [
     'setting_email' => 'Email',
     'system_information' => 'System information',
 
-    'theme' => 'Theme',
+    // 'theme' => 'Theme',
     'copyright' => 'Copyright :year &copy; :company. Version: <span>:version</span>',
     'profile' => 'Profile',
     'logout' => 'Logout',
@@ -25,3 +25,7 @@ return [
     'page_loaded_time' => 'Page loaded in',
     'view_website' => 'View website',
 ];
+
+
+//SELECT voter_id, COUNT(voter_id) FROM `voteds` GROUP BY voter_id ORDER BY COUNT(voter_id) DESC
+
