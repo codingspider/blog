@@ -27,7 +27,7 @@
         <div class="column3">
             <div class="widget">
                 <div>
-                    <p><img src="{{ asset('uploads/logo.png') }}" alt="" /></p>
+                    <p><img src="{{ asset('uploads/logo2.png') }}" alt="" /></p>
                     <p>Est ut minim postea necessitatibus.</p>
                     <p>Decore eligendi at nec. Vel ea quem persius eleifend, est ne appetere molestiae, est ut minim postea necessitatibus.</p>
                     <div class="short-icon-text">
@@ -84,7 +84,7 @@
 <div id="footer-info">
 <div class="wrapper">
     <ul class="right">
-                <li><a href="{{ URL::to('/faq') }}">FAQ</a></li>
+                <li><a href="{{ URL::to('/faq/page') }}">FAQ</a></li>
                 <li><a href="{{ URL::to('/terms/and/condition') }}">Terms and Condition</a></li>
                 <li><a href="{{ URL::to('/privacy/policy') }}">Privacy Policy</a></li>
                 <li><a href="{{ URL::to('/contact-us') }}">Contact us</a></li>

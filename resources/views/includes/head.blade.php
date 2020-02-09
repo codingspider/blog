@@ -34,13 +34,13 @@
                         
                         <!-- BEGIN .header-logo -->
                         <div class="header-logo">
-                            <a href="{{ URL::to('/')}}"><img src="{{ asset('uploads/logo.png') }}" data-ot-retina="{{ asset('uploads/logo.png') }}" style="height: 80px; width: 150px;" alt="" /></a>
+                            <a href="{{ URL::to('/')}}"><img src="{{ asset('uploads/logo2.png') }}" data-ot-retina="{{ asset('uploads/logo2.png') }}" style="height: 80px; width: 150px;" alt="" /></a>
                         <!-- END .header-logo -->
                         </div>
                         
                         <!-- BEGIN .header-pob -->
                         <div class="header-pob">
-                           {{--  <a href="#" target="_blank"><img src="{{ asset('assets/images/pob-1.jpg') }}" alt="" /></a> --}}
+                            <a href="#" target="_blank"><img src="https://www.pngitem.com/pimgs/m/2-29451_google-ads-logo-vector-hd-png-download.png" style="width: 100%; height: 80px;" alt="" /></a>
                         <!-- END .header-pob -->
                         </div>
 
@@ -52,13 +52,11 @@
 
                 <!-- BEGIN #main-menu -->
                 <nav id="main-menu">
-
                     <a href="#dat-menu" class="dat-menu-button"><i class="fa fa-bars"></i>Show Menu</a>
                     <div class="main-menu-placeholder">
 
                         <!-- BEGIN .wrapper -->
                         <div class="wrapper">
-
                             <div class="search-nav right">
                                 <form action="{{URL::to('/search/post') }}" method="POST">
                                     @csrf 

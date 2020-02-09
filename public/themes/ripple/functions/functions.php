@@ -92,7 +92,7 @@ theme_option()
         'label' => __('Copyright'),
         'attributes' => [
             'name' => 'copyright',
-            'value' => __('© 2017 Botble Technologies. All right reserved. Designed by Nghia Minh'),
+            'value' => __('© 2017 codingspider. All right reserved. Designed by Nghia Minh'),
             'options' => [
                 'class' => 'form-control',
                 'placeholder' => __('Change copyright'),

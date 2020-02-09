@@ -11,3 +11,12 @@ Route::post('/ads/place/submit', 'PostController@ads_submit');
 Route::post('/ads/place/edit', 'PostController@ads_edit');
 Route::post('/search/post', 'PostController@search');
 Route::post('subscribe/to/our/newsletter', 'PostController@store');
+
+Route::get('/faq/page', function(){
+	return view('faq');
+});
+
+Route::post('send/message', function(){
+
+	return back()->with('message', 'Message has been sent to admin.');
+});

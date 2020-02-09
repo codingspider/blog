@@ -6,16 +6,16 @@
                 <aside class="widget widget--transparent widget__footer widget__about">
                     <div class="widget__content">
                         <header class="person-info">
-                            <div class="person-info__thumbnail"><a href="https://botble.com"><img src="{{ Theme::asset()->url('images/men.jpg') }}" alt="Botble technologies"></a></div>
+                            <div class="person-info__thumbnail"><a href="#"><img src="{{ Theme::asset()->url('images/men.jpg') }}" alt="codingspider"></a></div>
                             <div class="person-info__content">
-                                <h3 class="person-info__title">{{ __('Botble Technologies') }}</h3>
+                                <h3 class="person-info__title">{{ __('codingspider') }}</h3>
                                 <p class="person-info__description">{{ __('A young team in Vietnam') }}</p>
                             </div>
                         </header>
                         <div class="person-detail">
                             <p><i class="ion-home"></i>{{ __('Go Vap District, HCM City, Vietnam') }}</p>
-                            <p><i class="ion-earth"></i><a href="https://botble.com">https://botble.com</a></p>
-                            <p><i class="ion-email"></i><a href="mailto:{{ setting('email_support') }}">{{ setting('email_support') }}</a></p>
+                            <p><i class="ion-earth"></i>www.codingspider.com</p>
+                            <p><i class="ion-email"></i><a href="mailto:engrokon.rok@gmail.com">engrokon.rok@gmail.com</a></p>
                         </div>
                     </div>
                 </aside>
@@ -34,9 +34,9 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="page-footer__social">
                         <ul class="social social--simple">
-                            <li><a href="{{ setting('facebook') }}" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="{{ setting('twitter') }}" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="{{ setting('google_plus') }}" title="Google"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" title="Google"><i class="fa fa-google-plus"></i></a></li>
                         </ul>
                     </div>
                 </div>

@@ -6,7 +6,7 @@
             @if (setting('admin_logo'))
                 <img src="{{ url(setting('admin_logo', config('core.base.general.logo'))) }}" alt="logo" class="logo-default" style="max-width: 90px;"/>
             @else
-                <span>Bot</span>ble
+                <span>Codingspider</span>
             @endif
         </a>
         <div class="sidebar-toggle menu-toggler responsive-toggler d-block d-sm-none" data-toggle="collapse" data-target=".navbar-collapse">

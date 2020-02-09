@@ -9,7 +9,7 @@ return [
         'base_dir' => public_path('uploads'),
     ],
     'default-theme' => env('DEFAULT_THEME', 'default'),
-    'base_name' => env('APP_NAME', 'Botble Technologies / <a target="_blank" href="https://bit.ly/2GoaF65">Free script`s</a>'),
+    'base_name' => env('APP_NAME', 'CodingSpider / <a target="_blank" href="#"</a>'),
     'logo' => '/vendor/core/images/logo_white.png',
     'favicon' => '/vendor/core/images/favicon.png',
     'editor' => [
